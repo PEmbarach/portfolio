@@ -1,6 +1,7 @@
 import './banner.css'
 import * as React from 'react';
 import img from '../assets/images/img.png'
+// import fav from '../assets/images/favicon.png'
 // import Navbar from '../Navbar';
 
 const Banner = () => {

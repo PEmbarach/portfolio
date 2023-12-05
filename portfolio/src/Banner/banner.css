@@ -20,6 +20,10 @@
     float: left;
 }
 
+/* .banner h1 img {
+    display: none;
+} */
+
 .banner .headline {
     text-align: center;
     position: absolute;
@@ -50,9 +54,14 @@
         /* border-bottom: #e98074 2px solid; */
     }
 
+    .logo {
+        padding-right: 0;
+    }
+
     .banner img {
         display: none;
     }
+
 
     .banner .headline {
         text-align: center;
