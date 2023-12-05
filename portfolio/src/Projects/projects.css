@@ -1,0 +1,56 @@
+section {
+    background-color: #eae7dc;
+    padding-top:30px;
+}
+
+.projects {
+    color: #8e8d8a;
+    font-weight: 500;
+    margin-bottom: 10;
+    font-size: xx-large;
+}
+
+.title {
+    display: inline-flex;
+}
+
+.cards {
+    display: inline-flex
+}
+
+.style {
+    margin: 10px;
+}
+
+.card {
+    margin: 16px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.08);
+}
+
+.name {
+    color: #8e8d8a;
+    font-weight: 500;
+    font-size: larger;
+    margin-top: 0;
+}
+
+img {
+    width: 250px;
+    height: 200px;
+    margin: auto;
+}
+
+@media screen and (min-width: 758px) and (max-width: 1023px) {
+    .title {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+    .title {
+        display: inline-block;
+    }
+}

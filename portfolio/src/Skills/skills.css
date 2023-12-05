@@ -1,0 +1,30 @@
+.card {
+    margin: 16px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.08);
+}
+
+.title {
+    color: #8e8d8a;
+    font-weight: 500;
+    margin-bottom: 1px;
+    font-size: xx-large;
+}
+
+.image {
+    width: 150px;
+    height: 150px;
+}
+
+.info {
+    color: #8e8d8a;
+    text-align: justify;
+    line-height: 1.6em;
+    padding: 64px;
+    font-weight: 400;
+}
+
+h2 {
+    color: #8e8d8a;
+    font-weight: 400;
+    font-size: x-large;
+}
