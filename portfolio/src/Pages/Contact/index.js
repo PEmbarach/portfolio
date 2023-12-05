@@ -99,7 +99,7 @@ const ContactForm = () => {
                             />
                         </Form.Group>
                         <Button
-                            className='button'
+                            className='submitButton'
                             type="submit"
                         >
                             Submit

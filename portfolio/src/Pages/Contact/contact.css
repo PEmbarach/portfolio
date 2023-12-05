@@ -40,7 +40,7 @@ input {
     height: 32px;
 }
 
-.button {
+.submitButton {
     color: #eae7dc;
     background-color: #e98074;
     border: none;
@@ -52,7 +52,7 @@ input {
     min-width: 75px;
 }
 
-.button:hover {
+.submitButton:hover {
     opacity: 0.8;
     border-color: transparent;
     cursor: pointer;

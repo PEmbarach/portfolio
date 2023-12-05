@@ -40,6 +40,30 @@ img {
     margin: auto;
 }
 
+.cardButton {
+    color: #eae7dc;
+    background-color: #e98074;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+    align-self: center;
+    border-color: transparent;
+    padding: 4px 10px;
+    min-width: 75px;
+
+}
+
+.cardButton:hover {
+    opacity: 0.8;
+    border-color: transparent;
+    cursor: pointer;
+}
+
+.cardButton a {
+    color: #eae7dc;
+}
+
+
 @media screen and (min-width: 758px) and (max-width: 1023px) {
     .title {
         display: flex;

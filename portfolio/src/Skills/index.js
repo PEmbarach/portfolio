@@ -11,8 +11,8 @@ const { Meta } = Card;
 const Skills = () => {
     return (
         <section id="Skills" >
-            <h1 className="title">Skills</h1>
-            <div className='cards'>
+            <h1 className="skills">Skills</h1>
+            <div className='title'>
                 <Card
                     className='style'
                     style={{ width: 300 }}
