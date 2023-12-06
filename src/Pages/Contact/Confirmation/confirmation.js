@@ -6,13 +6,15 @@ import {
   Row,
   Container,
 } from "react-bootstrap";
+import { Button } from "antd";
 
 
 const Confirmation = () => {
   return (
-    <Row className=''>
+    <Row>
       <Col>
-        <Container className=''>
+        <Container className='confirmation'>
+        <Button className='cardButton'> <a href='/' rel="noopener noreferrer"> Home </a> </Button>
           <h1 className=''>Thank you</h1>
           <p className=''>We have received your message and will be in touch soon!</p>
         </Container>
